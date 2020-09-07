@@ -1,0 +1,233 @@
+body {
+    margin: 0 auto;
+}
+
+.container {
+    width: 88%;
+    margin: 0 auto;
+}
+
+#top {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+#cart {
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#cart a:link,
+#cart a:visited {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+#cart a:hover {
+    color: #BBBBBB;
+}
+
+#logo {
+    text-align: center;
+    border-bottom: solid 1px #DDDDDD;
+}
+
+#logo a:link,
+#logo a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#menu {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#list {
+    width: 70%;
+    float: left;
+}
+
+#list ul li {
+    list-style-type: none;
+    float: left;
+    margin: 10px 20px;
+}
+
+#list a:link,
+#list a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#list a:hover {
+    color: #00CCFF;
+    text-decoration: none;
+}
+
+#search {
+    width: 30%;
+    float: right;
+    position: relative;
+    margin-top: 21px;
+}
+
+#containersearch {
+    float: right;
+}
+
+#inputsearch {
+    width: 180px;
+    padding: 5px;
+}
+
+#btnsearch {
+    background: url(../img/search.png) no-repeat;
+    display: inline-block;
+    padding: 4px 9px;
+    border: 0px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#best_saler {
+    margin-top: 50px;
+    height: 250px;
+}
+
+.img_saler {
+    float: left;
+    margin-right: 45px;
+    margin-bottom: 60px;
+}
+
+#product {
+    width: 100%;
+    height: 800px;
+}
+
+.box_product {
+    width: 250px;
+    border: 1px solid #DDDDDD;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-right: 42px;
+}
+
+.info_product h4 {
+    margin-bottom: 0px;
+}
+
+.info_product h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #BBBBBB;
+}
+
+#contact {
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.icon {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+#facebook {
+    background: url(../img/s-icons.png);
+    background-position: 0px 0px;
+    display: inline-block;
+}
+
+#twitter {
+    background: url(../img/s-icons.png);
+    background-position: 34px 0px;
+    display: inline-block;
+}
+
+#google {
+    background: url(../img/s-icons.png);
+    background-position: 68px 0px;
+    display: inline-block;
+}
+
+.txt_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -25px;
+}
+
+.box_contact {
+    float: left;
+    width: 250px;
+    margin-top: 30px;
+    margin-right: 43px;
+    text-align: left;
+}
+
+.box_contact ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.box_contact a:visited,
+.box_contact a:link {
+    color: #999999;
+    text-decoration: none;
+}
+
+.box_contact a:hover {
+    color: #66CCFF;
+    text-decoration: none;
+}
+
+#footer {
+    height: 50px;
+    margin-top: 30px;
+}
+
+#email {
+    float: left;
+}
+
+#copyright {
+    float: right;
+}
+
+#input_email {
+    width: 220px;
+    padding: 5px 10px;
+}
+
+#btn_subscribe {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#copyright a:visited,
+#copyright a:link {
+    color: black;
+    text-decoration: none;
+}
+
+#copyright a:hover {
+    color: #66CCFF;
+    text-decoration: none;
+}
